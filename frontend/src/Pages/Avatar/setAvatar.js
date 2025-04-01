@@ -146,7 +146,7 @@ const SetAvatar = () => {
           options={{
             background: {
               color: {
-                value: "#000",
+                value: "#642786",
               },
             },
             fpsLimit: 60,
@@ -159,13 +159,13 @@ const SetAvatar = () => {
                 },
               },
               color: {
-                value: "#ffcc00",
+                value: "#fff",
               },
               shape: {
                 type: "circle",
               },
               opacity: {
-                value: 0.5,
+                value: 0.2,
                 random: true,
               },
               size: {

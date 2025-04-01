@@ -52,7 +52,7 @@ const navigate = useNavigate();
         options={{
           background: {
             color: {
-              value: '#000',
+              value: '#642786',
             },
           },
           fpsLimit: 60,
@@ -65,13 +65,13 @@ const navigate = useNavigate();
               },
             },
             color: {
-              value: '#ffcc00',
+              value: '#fff',
             },
             shape: {
               type: 'circle',
             },
             opacity: {
-              value: 0.5,
+              value: 0.2,
               random: true,
             },
             size: {
@@ -113,7 +113,7 @@ const navigate = useNavigate();
       />
     <Navbar className="navbarCSS" collapseOnSelect expand="lg" style={{position: 'relative', zIndex: "2 !important"}}>
       {/* <Navbar className="navbarCSS" collapseOnSelect expand="lg" bg="dark" variant="dark"> */}
-        <Navbar.Brand href="/" className="text-white navTitle">Expense Management System</Navbar.Brand>
+        <Navbar.Brand href="/" className="text-white navTitle">Expense Reimbursement System</Navbar.Brand>
         <Navbar.Toggle
             aria-controls="basic-navbar-nav"
             style={{

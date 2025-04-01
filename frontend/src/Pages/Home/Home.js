@@ -281,17 +281,19 @@ const Home = () => {
                           value={values.category}
                           onChange={handleChange}
                         >
-                          <option value="">Choose...</option>
-                          <option value="Groceries">Groceries</option>
-                          <option value="Rent">Rent</option>
-                          <option value="Salary">Salary</option>
-                          <option value="Tip">Tip</option>
-                          <option value="Food">Food</option>
-                          <option value="Medical">Medical</option>
-                          <option value="Utilities">Utilities</option>
-                          <option value="Entertainment">Entertainment</option>
-                          <option value="Transportation">Transportation</option>
-                          <option value="Other">Other</option>
+                        <option value="">Select Category...</option>
+                        <option value="Office Supplies">Office Supplies</option>
+                        <option value="Accommodation">Accommodation</option>
+                        <option value="Salary">Salary</option>
+                        <option value="Tips/Gratuity">Tips/Gratuity</option>
+                        <option value="Meals">Meals</option>
+                        <option value="Healthcare">Healthcare</option>
+                        <option value="Utilities & Services">Utilities & Services</option>
+                        <option value="Team Events">Team Events</option>
+                        <option value="Transportation Costs">Transportation Costs</option>
+                        <option value="Miscellaneous">Miscellaneous</option>
+
+
                         </Form.Select>
                       </Form.Group>
 
